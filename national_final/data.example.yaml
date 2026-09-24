@@ -1,0 +1,11 @@
+# Copy this file to data.yaml and adjust path when necessary.
+path: ./data
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: ball
+  1: goalkeeper
+  2: player
+  3: referee

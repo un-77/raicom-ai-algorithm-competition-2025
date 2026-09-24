@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets and archives
+data/
+datasets/
+*.wav
+*.mp3
+*.zip
+*.7z
+
+# Model artifacts and experiment outputs
+weights/
+checkpoints/
+runs/
+results/
+wandb/
+*.pth
+*.pt
+*.onnx
+
+# Personal and presentation materials
+*.docx
+*.mp4
+*.mov
+certificate*
+award*
